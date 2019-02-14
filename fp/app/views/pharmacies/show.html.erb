@@ -2,17 +2,17 @@
 
 <p>
   <strong>Ibge:</strong>
-  <%= @pharmacy.ibge %>
+  <%= @pharmacy.city.ibge %>
 </p>
 
 <p>
   <strong>Uf:</strong>
-  <%= @pharmacy.uf %>
+  <%= @pharmacy.city.state.name %>
 </p>
 
 <p>
   <strong>Cidade:</strong>
-  <%= @pharmacy.cidade %>
+  <%= @pharmacy.city.nome %>
 </p>
 
 <p>
@@ -37,17 +37,7 @@
 
 <p>
   <strong>Ddd:</strong>
-  <%= @pharmacy.ddd %>
-</p>
-
-<p>
-  <strong>Telefone:</strong>
-  <%= @pharmacy.telefone %>
-</p>
-
-<p>
-  <strong>Email:</strong>
-  <%= @pharmacy.email %>
+  <%= @pharmacy.city.ddd %>
 </p>
 
 <p>
